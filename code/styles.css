@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #b9bbbb;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #3071a9;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+.button1 {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  .button1 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .button1:before,
+  .button1:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .button1:before {
+    height: 0%;
+    width: 2px;
+  }
+  .button1:after {
+    width: 0%;
+    height: 2px;
+  }
+  .button1:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .button1:hover:before {
+    height: 100%;
+  }
+  .button1:hover:after {
+    width: 100%;
+  }
+  .button1 span:hover{
+     color: rgba(2,126,251,1);
+  }
+  .button1 span:before,
+  .button1 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  .button1 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .button1 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .button1 span:hover:before {
+    height: 100%;
+  }
+  .button1 span:hover:after {
+    width: 100%;
+  }
